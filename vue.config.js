@@ -11,5 +11,6 @@ module.exports = {
                 changeOrigin: true // 跨域
             }
         }
-    }
+    },
+    publicPath: "./" // vue-cli3.3+新版本使用
 }
