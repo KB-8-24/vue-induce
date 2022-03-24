@@ -54,6 +54,10 @@ export default {
                 {
                     path: "/page/watch",
                     name: "vue-watch"
+                },
+                {
+                    path: "/page/mixins",
+                    name: "vue-mixins"
                 }
             ]
         }

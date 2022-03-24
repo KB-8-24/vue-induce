@@ -47,6 +47,10 @@ const routes = [
     {
         path: "/page/watch",
         component: () => import("@/views/page/vue-watch/watchIndex.vue")
+    },
+    {
+        path: "/page/mixins",
+        component: () => import("@/views/page/vue-mixins/mixins.vue")
     }
 ]
 
