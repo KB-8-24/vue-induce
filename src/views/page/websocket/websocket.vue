@@ -16,6 +16,7 @@ export default {
     },
     methods: {
         wsConnect() {
+            // webSocket本身不存在跨域问题
             let socket = new WebSocket("ws://192.168.6.34:1009/websocket")
             this.ws = socket
             socket.onopen = () => {
