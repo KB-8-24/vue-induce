@@ -24,7 +24,7 @@ export default {
             content: null,
             // 根据自己需要配置toolbar功能项，不配置默认显示所有功能
             editorOption: {
-                placeholder: "请输入文本...",
+                placeholder: "请输入文本...", //自定义提示文本
                 modules: {
                     toolbar: [
                         ["bold", "italic", "underline", "strike"], // 切换按钮

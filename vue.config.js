@@ -1,7 +1,7 @@
 module.exports = {
     lintOnSave: false, //关闭eslint检查
     devServer: {
-        host: "localhost", // 默认是localhost
+        host: "0.0.0.0", // 默认是localhost
         port: 8080, // 前端项目编译后使用的端口号，跟webpack配置的port同理
         proxy: {
             "/api": {
@@ -12,5 +12,5 @@ module.exports = {
             }
         }
     },
-    publicPath: "./" // vue-cli3.3+新版本使用
+    publicPath: "./" // vue-cli3.3+新版本使用 保证打包之后路径正常
 }
