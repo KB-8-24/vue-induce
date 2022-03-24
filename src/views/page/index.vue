@@ -58,6 +58,10 @@ export default {
                 {
                     path: "/page/mixins",
                     name: "vue-mixins"
+                },
+                {
+                    path: "/page/websocket",
+                    name: "websocket"
                 }
             ]
         }

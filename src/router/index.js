@@ -51,6 +51,10 @@ const routes = [
     {
         path: "/page/mixins",
         component: () => import("@/views/page/vue-mixins/mixins.vue")
+    },
+    {
+        path: "/page/websocket",
+        component: () => import("@/views/page/websocket/websocket")
     }
 ]
 
