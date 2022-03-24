@@ -1,5 +1,8 @@
 <template>
-    <div>websocket <el-button type="primary" size="mini" @click="close">手动关闭websocket</el-button></div>
+    <div>
+        websocket <el-button type="primary" size="mini" @click="close">手动关闭websocket</el-button>
+        <el-button type="danger" size="mini" @click="info">打印websocket对象</el-button>
+    </div>
 </template>
 
 <script>
@@ -37,6 +40,8 @@ export default {
         close() {
             // 手动关闭websocket
             this.ws.close()
+        },
+        info() {
             console.log(this.ws)
         }
     }
