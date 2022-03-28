@@ -55,6 +55,10 @@ const routes = [
     {
         path: "/page/websocket",
         component: () => import("@/views/page/websocket/websocket")
+    },
+    {
+        path: "/page/directive",
+        component: () => import("@/views/page/v-directive/directive")
     }
 ]
 

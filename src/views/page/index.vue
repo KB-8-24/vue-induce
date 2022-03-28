@@ -62,6 +62,10 @@ export default {
                 {
                     path: "/page/websocket",
                     name: "websocket"
+                },
+                {
+                    path: "/page/directive",
+                    name: "vue-directive"
                 }
             ]
         }
