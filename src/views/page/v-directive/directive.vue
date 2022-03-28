@@ -34,7 +34,7 @@ export default {
             inserted(el, binding) {
                 el.children[0].value = "初始化参数"
                 el.children[0].style.backgroundColor = "pink"
-                console.log(binding)
+                console.log(binding.value) //指令后面参数
             }
         }
     }
