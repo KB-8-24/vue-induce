@@ -11,6 +11,11 @@ const routes = [
         component: HomeView
     },
     {
+        path: "/refresh",
+        name: "refresh",
+        component: () => import("@/views/page/refresh.vue")
+    },
+    {
         path: "/page/element/form",
         component: () => import("@/views/page/element-ui/Form/el-form在el-table中的表单验证")
     },
@@ -23,7 +28,7 @@ const routes = [
         component: () => import("@/views/page/Vue.observable/observableDemo"),
         children: [
             {
-                path: "/page/observable/two",
+                path: "two",
                 component: () => import("@/views/page/Vue.observable/observableDemo2")
             }
         ]
