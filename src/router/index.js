@@ -39,7 +39,7 @@ const routes = [
     },
     {
         path: "/page/VueQuillEditor",
-        component: () => import("@/views/page/vue-quill-editor/VueQuillEditor")
+        component: () => import("@/views/page/vue-quill-editor/VueQuillEditor2")
     },
     {
         path: "/page/upload",
