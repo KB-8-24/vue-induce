@@ -66,6 +66,10 @@ export default {
                 {
                     path: "/page/directive",
                     name: "vue-directive"
+                },
+                {
+                    path: "/page/lifecycle",
+                    name: "Vue 生命周期钩子"
                 }
             ]
         }
