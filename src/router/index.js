@@ -97,6 +97,10 @@ const routes = [
                 }
             }
         ]
+    },
+    {
+        path: "/page/transition",
+        component: () => import("@/views/page/transition/index")
     }
 ]
 

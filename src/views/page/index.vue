@@ -70,6 +70,10 @@ export default {
                 {
                     path: "/page/lifecycle",
                     name: "Vue 生命周期钩子"
+                },
+                {
+                    path: "/page/transition",
+                    name: "过渡动画"
                 }
             ]
         }

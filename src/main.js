@@ -10,6 +10,8 @@ import "@/plugins/vue-quill-editor"
 import "@/plugins/vue-axios"
 // eventBus
 Vue.prototype.$bus = new Vue()
+// 引入动画
+import "animate.css"
 Vue.config.productionTip = false
 
 new Vue({
