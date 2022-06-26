@@ -74,6 +74,10 @@ export default {
                 {
                     path: "/page/transition",
                     name: "过渡动画"
+                },
+                {
+                    path: "page/slot",
+                    name: "作用域插槽"
                 }
             ]
         }

@@ -101,6 +101,10 @@ const routes = [
     {
         path: "/page/transition",
         component: () => import("@/views/page/transition/index")
+    },
+    {
+        path: "/page/slot",
+        component: () => import("@/views/page/slot/father.vue")
     }
 ]
 
