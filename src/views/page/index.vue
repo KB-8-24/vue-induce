@@ -78,6 +78,10 @@ export default {
                 {
                     path: "page/slot",
                     name: "作用域插槽"
+                },
+                {
+                    path: "page/download",
+                    name: "downloadjs 插件下载文件"
                 }
             ]
         }

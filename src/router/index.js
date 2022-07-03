@@ -105,6 +105,10 @@ const routes = [
     {
         path: "/page/slot",
         component: () => import("@/views/page/slot/father.vue")
+    },
+    {
+        path: "/page/download",
+        component: () => import("@/views/page/download/index.vue")
     }
 ]
 
