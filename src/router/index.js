@@ -109,6 +109,14 @@ const routes = [
     {
         path: "/page/download",
         component: () => import("@/views/page/download/index.vue")
+    },
+    {
+        path: "/page/render/1",
+        component: () => import("@/views/page/render/基本使用")
+    },
+    {
+        path: "/page/render/2",
+        component: () => import("@/views/page/render/v-for使用")
     }
 ]
 

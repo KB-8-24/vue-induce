@@ -82,6 +82,10 @@ export default {
                 {
                     path: "page/download",
                     name: "downloadjs 插件下载文件"
+                },
+                {
+                    path: "page/render/1",
+                    name: "vue render 函数使用"
                 }
             ]
         }
@@ -102,6 +106,7 @@ nav {
 }
 .link_item {
     margin-right: 15px;
+    margin-top: 10px;
 }
 header,
 footer {
