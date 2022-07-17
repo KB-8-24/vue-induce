@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkvue"]=self["webpackChunkvue"]||[]).push([[12],{5012:function(e,u,n){n.r(u),n.d(u,{default:function(){return s}});var t=function(){var e=this,u=e.$createElement,n=e._self._c||u;return n("div")},r=[],l={name:"VueInduceRefresh",beforeRouteEnter(e,u,n){let{path:t}=u;n((e=>{e.$router.replace(t)}))}},c=l,a=n(3736),f=(0,a.Z)(c,t,r,!1,null,null,null),s=f.exports}}]);
+//# sourceMappingURL=12.b313f20e.js.map

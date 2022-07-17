@@ -12,8 +12,9 @@ import "@/plugins/vue-axios"
 Vue.prototype.$bus = new Vue()
 // 引入动画
 import "animate.css"
+// 引入全局组件
+import "@/plugins/global-Components"
 Vue.config.productionTip = false
-
 new Vue({
     router,
     store,

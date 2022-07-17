@@ -1,6 +1,7 @@
 <template>
     <div style="margin: 20px">
         <button @click="downloadText">下载文本——“{{ text }}”</button>
+        <next-page></next-page>
     </div>
 </template>
 

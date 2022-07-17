@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkvue"]=self["webpackChunkvue"]||[]).push([[334],{7334:function(e,n,l){l.r(n),l.d(n,{default:function(){return f}});var u,o,c={name:"VueInduceIndex",render:function(e){var n=this;return e("ul",{class:"red"},[e("li",{style:{backgroundColor:"pink",color:"#fff"},on:{click:function(){console.log("点击了🐷"),console.log(n.$slots.default)}}},"猪头"),e("li","猪头"),e("li","猪头")])}},r=c,s=l(3736),t=(0,s.Z)(r,u,o,!1,null,"651ce657",null),f=t.exports}}]);
+//# sourceMappingURL=334-legacy.39a4a53e.js.map

@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkvue"]=self["webpackChunkvue"]||[]).push([[841],{2841:function(e,u,n){n.r(u),n.d(u,{default:function(){return c}});var r,t,l={name:"VueInduceVFor",data(){return{list:["苹果","香蕉","梨子","西瓜"]}},render(e){return e("ul",this.list.map((u=>e("li",u))))}},s=l,a=n(3736),i=(0,a.Z)(s,r,t,!1,null,"39f26894",null),c=i.exports}}]);
+//# sourceMappingURL=841.73242e73.js.map
