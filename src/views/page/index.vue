@@ -86,6 +86,10 @@ export default {
                 {
                     path: "page/render/1",
                     name: "vue render 函数使用"
+                },
+                {
+                    path: "page/json-tree",
+                    name: "扁平数据与树形数据相互转换"
                 }
             ]
         }

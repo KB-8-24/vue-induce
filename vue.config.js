@@ -11,6 +11,6 @@ module.exports = {
                 changeOrigin: true // 跨域
             }
         }
-    },
-    publicPath: "./" // vue-cli3.3+新版本使用 保证打包之后路径正常
+    }
+    // publicPath: "./" // vue-cli3.3+新版本使用 保证打包之后路径正常
 }

@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import Vue from "vue"
 import VueRouter from "vue-router"
 import HomeView from "@/views/page/index.vue"
@@ -117,6 +118,14 @@ const routes = [
     {
         path: "/page/render/2",
         component: () => import("@/views/page/render/v-for使用")
+    },
+    {
+        path: "/page/json-tree",
+        component: () => import("@/views/page/json-tree/index.vue")
+    },
+    {
+        path: "*",
+        component: () => import("@/views/page/404")
     }
 ]
 
