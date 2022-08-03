@@ -90,6 +90,14 @@ export default {
                 {
                     path: "page/json-tree",
                     name: "扁平数据与树形数据相互转换"
+                },
+                {
+                    path: "page/recursion",
+                    name: "递归组件使用"
+                },
+                {
+                    path: "/page/elementTree",
+                    name: "element-ui动态菜单渲染"
                 }
             ]
         }

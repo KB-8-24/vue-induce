@@ -124,6 +124,14 @@ const routes = [
         component: () => import("@/views/page/json-tree/index.vue")
     },
     {
+        path: "/page/recursion",
+        component: () => import("@/views/page/递归组件使用/index.vue")
+    },
+    {
+        path: "/page/elementTree",
+        component: () => import("@/views/page/递归组件使用/element 动态菜单/index.vue")
+    },
+    {
         path: "*",
         component: () => import("@/views/page/404")
     }
