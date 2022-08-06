@@ -42,6 +42,11 @@ export default {
                                             index: "1-1-1-1",
                                             icon: "el-icon-monitor",
                                             name: "四级菜单01"
+                                        },
+                                        {
+                                            index: "1-1-1-2",
+                                            icon: "el-icon-monitor",
+                                            name: "四级菜单02"
                                         }
                                     ]
                                 },
@@ -56,6 +61,11 @@ export default {
                             index: "1-2",
                             icon: "el-icon-data-line",
                             name: "二级菜单02"
+                        },
+                        {
+                            index: "1-3",
+                            icon: "el-icon-data-line",
+                            name: "二级菜单03"
                         }
                     ]
                 },
