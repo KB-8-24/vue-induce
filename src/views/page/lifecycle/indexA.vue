@@ -23,6 +23,7 @@ export default {
     },
     mounted() {
         console.log("A mounted")
+        debugger
     },
     beforeDestroy() {
         console.log("A beforeDestroy")
