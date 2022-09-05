@@ -24,7 +24,6 @@
                         </el-form-item>
                     </template>
                 </el-table-column>
-
                 <el-table-column label="消耗">
                     <template slot-scope="scope">
                         <el-form-item
@@ -45,7 +44,7 @@
                 </el-table-column>
             </el-table>
         </el-form>
-        <el-button type="primary" size="default" @click="submit">提交</el-button>
+        <el-button class="btn" style="display: none" type="primary" size="default" @click="submit">提交</el-button>
     </div>
 </template>
 
@@ -95,7 +94,8 @@ export default {
             this.applyForm.applyDataList.push({
                 value3: "",
                 value4: "",
-                value6: ""
+                value6: "",
+                id: new Date().getTime()
             })
             // this.$nextTick(() => {
             //     this.$refs.applyForm.clearValidate()
