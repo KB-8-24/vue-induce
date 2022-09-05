@@ -49,6 +49,12 @@
 </template>
 
 <script>
+// 总结
+// 1.表单 v-if v-show 验证取消 key 原理
+// 2.表单对象rules 嵌套对象
+// 3.table 与 form 表单嵌套
+// 4.多个 相同form 表单 组件使用
+
 export default {
     name: "VueElFormElTable",
 
