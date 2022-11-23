@@ -5,10 +5,13 @@ module.exports = {
         port: 8080, // 前端项目编译后使用的端口号，跟webpack配置的port同理
         proxy: {
             "/api": {
-                target: "http://192.168.6.34:1003", // 实际跨域请求的API地址
+                target: "https://console-mock.apipost.cn/app/mock/project/702f90d1-b75a-4f84-b5e1-8ab0393d4a3d", // 实际跨域请求的API地址
                 secure: false, // https请求则使用true
                 ws: true,
-                changeOrigin: true // 跨域
+                changeOrigin: true, // 跨域
+                pathRewrite: {
+                    "^/api": ""
+                }
             }
         }
     }

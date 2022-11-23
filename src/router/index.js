@@ -21,6 +21,10 @@ const routes = [
         component: () => import("@/views/page/element-ui/Form/el-form在el-table中的表单验证")
     },
     {
+        path: "/page/element/Pagination",
+        component: () => import("@/views/page/element-ui/Pagination/index.vue")
+    },
+    {
         path: "/page/eventbus",
         component: () => import("@/views/page/EventBus/busIndex")
     },
@@ -134,6 +138,10 @@ const routes = [
     {
         path: "*",
         component: () => import("@/views/page/404")
+    },
+    {
+        path: "/page/scoped",
+        component: () => import("@/views/page/element-ui/scoped/P.vue")
     }
 ]
 

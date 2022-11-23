@@ -14,6 +14,7 @@ export default {
     components: { VoBasic },
     data() {
         return {
+            time: null,
             chartData: {
                 id: "6a0ccd5595fb4631a714765e26a71df8",
                 parentId: "",

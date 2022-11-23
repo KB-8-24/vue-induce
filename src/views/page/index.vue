@@ -121,7 +121,8 @@ nav {
 }
 header,
 footer {
-    height: 10px;
+    // height: 10px;  // 会导致页面高度不够时，header 和 footer 消失
+    min-height: 10px;
     width: 100%;
     background-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff);
 }
