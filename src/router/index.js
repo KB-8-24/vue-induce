@@ -142,6 +142,15 @@ const routes = [
     {
         path: "/page/scoped",
         component: () => import("@/views/page/element-ui/scoped/P.vue")
+    },
+    {
+        path: "/page/vreify",
+        component: () => import("@/views/page/正则密码校验/verify.vue")
+    },
+    // 动态组件
+    {
+        path: "/page/isComponent",
+        component: () => import("@/views/page/vue动态组件/index.vue")
     }
 ]
 

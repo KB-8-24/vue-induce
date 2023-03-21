@@ -9,7 +9,18 @@
                             :rules="applyRules.value3"
                             :key="scope.row.id"
                         >
-                            <el-input v-model="scope.row.value3" placeholder="请输入申请数量" size="small" />
+                            <span v-show="!scope.row.show" @dblclick="spanClick(scope.row, scope.row.id)">{{
+                                scope.row.value3
+                            }}</span>
+                            <el-input
+                                :autofocus="true"
+                                :ref="scope.row.id"
+                                @blur="spanBlur(scope.row)"
+                                v-show="scope.row.show"
+                                v-model="scope.row.value3"
+                                placeholder="请输入申请数量"
+                                size="small"
+                            />
                         </el-form-item>
                     </template>
                 </el-table-column>
@@ -20,7 +31,8 @@
                             :rules="applyRules.value4"
                             :key="scope.row.id"
                         >
-                            <el-input v-model="scope.row.value4" placeholder="请输入申请数量" size="small" />
+                            <!-- <el-input v-model="scope.row.value4" placeholder="请输入申请数量" size="small" /> -->
+                            <span>{{ scope.row.value4 }}</span>
                         </el-form-item>
                     </template>
                 </el-table-column>
@@ -31,11 +43,11 @@
                             :rules="applyRules.value6"
                             :key="scope.row.id"
                         >
-                            <el-input v-model="scope.row.value6" placeholder="请输入申请数量" size="small" />
+                            <!-- <el-input v-model="scope.row.value6" placeholder="请输入申请数量" size="small" /> -->
+                            <span>{{ scope.row.value6 }}</span>
                         </el-form-item>
                     </template>
                 </el-table-column>
-
                 <el-table-column label="操作">
                     <template slot-scope="scope">
                         <el-button type="text" @click="delBtn(scope.$index)" size="small">删除</el-button>
@@ -60,18 +72,21 @@ export default {
 
     data() {
         return {
+            input: "",
             applyForm: {
                 applyDataList: [
                     {
-                        value3: "",
-                        value4: "",
-                        value6: "",
+                        show: false,
+                        value3: "优秀",
+                        value4: "厉害啊",
+                        value6: "真棒",
                         id: 1
                     },
                     {
-                        value3: "",
-                        value4: "",
-                        value6: "",
+                        show: false,
+                        value3: "的核算",
+                        value4: "阿萨德",
+                        value6: "搜索",
                         id: 2
                     }
                 ]
@@ -116,6 +131,15 @@ export default {
                     })
                 }
             })
+        },
+        spanClick(params, id) {
+            params.show = !params.show
+            this.$nextTick(() => {
+                this.$refs[id].focus()
+            })
+        },
+        spanBlur(params) {
+            params.show = !params.show
         }
     },
     computed: {
@@ -138,5 +162,4 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>
