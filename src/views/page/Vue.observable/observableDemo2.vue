@@ -1,16 +1,16 @@
 <template>
-    <div>{{ count }}</div>
+  <div>{{ count }}</div>
 </template>
 
 <script>
 import { store } from "@/observable/observable.js"
 export default {
-    name: "observableDemo2",
-    computed: {
-        count() {
-            return store.count
-        }
+  name: "observableDemo2",
+  computed: {
+    count() {
+      return store.count
     }
+  }
 }
 </script>
 

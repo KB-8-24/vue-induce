@@ -12,11 +12,18 @@ import "@/plugins/vue-axios"
 Vue.prototype.$bus = new Vue()
 // 引入动画
 import "animate.css"
+// 引入Tailwind CSS
+// import "tailwindcss/tailwind.css"
 // 引入全局组件
 import "@/plugins/global-Components"
+// 引入基础样式scss
+import "@/assets/common/base.scss"
+
+
+
 Vue.config.productionTip = false
 new Vue({
-    router,
-    store,
-    render: h => h(App)
+  router,
+  store,
+  render: h => h(App)
 }).$mount("#app")

@@ -1,0 +1,8 @@
+@for $i from 0 through 1000 {
+  @if $i % 5 == 0 {
+    .width#{$i} {
+      width: $i + px;
+    }
+  }
+}
+

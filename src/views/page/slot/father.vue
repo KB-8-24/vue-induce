@@ -1,31 +1,31 @@
 <template>
-    <div>
-        <son>
-            <template #a="data">
-                {{ data }}
-            </template>
-            <template #b="data">
-                {{ data }}
-            </template>
-        </son>
-    </div>
+  <div>
+    <son>
+      <template #a="data">
+        {{ data }}
+      </template>
+      <template #b="data">
+        {{ data }}
+      </template>
+    </son>
+  </div>
 </template>
 
 <script>
 import son from "@/views/page/slot/son.vue"
 export default {
-    name: "VueInduceFatherH",
-    components: {
-        son
-    },
+  name: "VueInduceFatherH",
+  components: {
+    son
+  },
 
-    data() {
-        return {}
-    },
+  data() {
+    return {}
+  },
 
-    mounted() {},
+  mounted() {},
 
-    methods: {}
+  methods: {}
 }
 </script>
 

@@ -1,21 +1,21 @@
 <template>
-    <div class="child">
-        <span>我是孩子 </span>
-        <slot></slot>
-    </div>
+  <div class="child">
+    <span>我是孩子 </span>
+    <slot></slot>
+  </div>
 </template>
 
 <script>
 export default {
-    name: "VueInduceC",
+  name: "VueInduceC",
 
-    data() {
-        return {}
-    },
+  data() {
+    return {}
+  },
 
-    mounted() {},
+  mounted() {},
 
-    methods: {}
+  methods: {}
 }
 </script>
 

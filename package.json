@@ -5,10 +5,12 @@
   "scripts": {
     "dev": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "build:css": "postcss src/assets/css/tailwind.css -o dist/css/tailwind.css"
   },
   "dependencies": {
     "@aximario/json-tree": "^2.2.4",
+    "@tailwindcss/postcss7-compat": "^2.2.17",
     "animate.css": "^4.1.1",
     "axios": "^0.26.1",
     "core-js": "^3.8.3",
@@ -31,14 +33,17 @@
     "@vue/cli-plugin-router": "~5.0.0",
     "@vue/cli-plugin-vuex": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
+    "autoprefixer": "^9.8.8",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-vue": "^8.0.3",
+    "postcss": "^7.0.39",
     "prettier": "^2.4.1",
     "quill-image-extend-module": "^1.1.2",
     "sass": "^1.32.7",
     "sass-loader": "^12.0.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17",
     "vue-template-compiler": "^2.6.14"
   }
 }
